@@ -26,7 +26,7 @@ class Rectangle {
 	}
 }
 
-// simple try out
+
 $r1 = new Rectangle();
 echo "Default rectangle:\n";
 $r1->show();
@@ -35,4 +35,5 @@ echo "\n";
 $r2 = new Rectangle(5, 3);
 echo "Second rectangle (5 x 3):\n";
 $r2->show();
+
 ?>
